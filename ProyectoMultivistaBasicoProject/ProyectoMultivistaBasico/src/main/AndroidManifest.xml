@@ -24,7 +24,9 @@
         </activity>
         <activity
             android:name="com.apps4s.proyectomultivistabasico.AboutActivity"
-            android:label="@string/title_activity_about" >
+            android:label="@string/title_activity_about"
+            android:theme="@android:style/Theme.DeviceDefault.Light" >
+            //android:theme="@android:style/Theme.Holo.Dialog" >
         </activity>
     </application>
 
