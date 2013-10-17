@@ -1,5 +1,6 @@
 package com.apps4s.proyectomultivistabasico;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
@@ -19,8 +20,8 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 // Aqui el codigo que llama ala otra ventana
-
-
+                Intent about = new Intent(MainActivity.this, AboutActivity.class);
+                startActivity(about);
             }
         });
 

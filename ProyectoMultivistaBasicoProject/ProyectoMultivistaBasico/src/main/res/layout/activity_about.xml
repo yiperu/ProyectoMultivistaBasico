@@ -9,9 +9,20 @@
     tools:context=".AboutActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/titulo_Vista2"
-        android:textSize="20dp" />
+        android:textSize="40dp"
+        android:id="@+id/textView"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/woman_tekken6" />
 
 </RelativeLayout>
