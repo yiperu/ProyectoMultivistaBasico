@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProyectoMultivistaBasico</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Proyecto Multivista Basico</string>
+    <string name="titulo_Vista2">Tekken 6</string>
+    <string name="texto_boton">Muestra otra Vista</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+</resources>
